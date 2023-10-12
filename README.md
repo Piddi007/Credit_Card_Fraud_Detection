@@ -42,14 +42,14 @@ It also contains transactions made by a cardholder in 2 days in month of septemb
 This dataset is highly unbalanced. Due to security reasons, most of the features in the dataset are transformed using principal component analysis (PCA). V1, V2, V3,…, V28 are PCA applied features and rest features include ‘time’, ‘amount’ and ‘class’ are non-PCA applied features
 
 Table of Contents
-Importing dependencies
-Exploratory data analysis
-Splitting the data into train & test data
-Model Building
-Perform cross validation with RepeatedKFold
-Perform cross validation with StratifiedKFold
-RandomOverSampler with StratifiedKFold Cross Validation
-Oversampling with SMOTE Oversampling
-Oversampling with ADASYN Oversampling
-Hyperparameter Tuning
-Conclusion
+1.Importing dependencies
+2. Exploratory data analysis
+3.Splitting the data into train & test data
+4. Model Building
+   Perform cross validation with RepeatedKFold
+   Perform cross validation with StratifiedKFold
+   RandomOverSampler with StratifiedKFold Cross Validation
+   Oversampling with SMOTE Oversampling
+   Oversampling with ADASYN Oversampling
+5. Hyperparameter Tuning
+6. Conclusion
