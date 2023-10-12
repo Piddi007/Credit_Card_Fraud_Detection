@@ -40,6 +40,7 @@ DATASET DESCRIPTION
 The dataset contains 284,807 transactions among which there are 492 i.e., 0.172% transactions are fraudulent transactions
 It also contains transactions made by a cardholder in 2 days in month of september 2013
 This dataset is highly unbalanced. Due to security reasons, most of the features in the dataset are transformed using principal component analysis (PCA). V1, V2, V3,…, V28 are PCA applied features and rest features include ‘time’, ‘amount’ and ‘class’ are non-PCA applied features
+
 Table of Contents
 Importing dependencies
 Exploratory data analysis
